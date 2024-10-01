@@ -18,7 +18,7 @@ class _DiceRollerState extends State<DiceRoller> {
     setState(() {
       currentRoll = Random().nextInt(6) + 1;
     });
-    print('Rolling dice...');
+    print('Rolling dice bro...');
   }
   Widget build(context) {
     return Column(
